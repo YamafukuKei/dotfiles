@@ -1,0 +1,22 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "c8511696-909a-4d34-8efb-788211d75eba"
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        white: "#e3e3e3"
+    core: {}
+    customTexts: {}
+    style:
+      theme: "linux"
+  welcome:
+    showOnStartup: false
