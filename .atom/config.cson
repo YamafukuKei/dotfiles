@@ -10,6 +10,20 @@
     showInvisibles: true
   "exception-reporting":
     userId: "c8511696-909a-4d34-8efb-788211d75eba"
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
   "platformio-ide-terminal":
     ansiColors:
       normal:
