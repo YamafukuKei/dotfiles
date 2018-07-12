@@ -6,6 +6,7 @@
       "monokai"
     ]
   editor:
+    fontSize: 12
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
