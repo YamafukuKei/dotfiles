@@ -3,8 +3,8 @@
 packages/
 compile-cache/
 storage/
-blob-store/
-nohup.out/
+blob-store
+nohup.out
 
 dev/
 .npm/
