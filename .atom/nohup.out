@@ -1,0 +1,6 @@
+Couldn't retain /home/yamafukukei/.atom/recovery/ros_industrial-a63196.txt. Code: ENOENT. Message: ENOENT: no such file or directory, open '/home/yamafukukei/.atom/recovery/ros_industrial-a63196.txt'
+Couldn't retain /home/yamafukukei/.atom/recovery/ros_industrial-1cc5ee.txt. Code: ENOENT. Message: ENOENT: no such file or directory, open '/home/yamafukukei/.atom/recovery/ros_industrial-1cc5ee.txt'
+Couldn't retain /home/yamafukukei/.atom/recovery/ros_industrial-3bd719.txt. Code: ENOENT. Message: ENOENT: no such file or directory, open '/home/yamafukukei/.atom/recovery/ros_industrial-3bd719.txt'
+Attempting to call a function in a renderer window that has been closed or released.
+Function provided here: worker.js:71:22
+Remote event names: destroyed, crashed
