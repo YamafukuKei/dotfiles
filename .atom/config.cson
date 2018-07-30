@@ -1,5 +1,9 @@
 "*":
   core:
+    disabledPackages: [
+      "markdown-preview"
+      "markdown-scroll-sync"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
