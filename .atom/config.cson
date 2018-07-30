@@ -11,6 +11,10 @@
     showInvisibles: true
   "exception-reporting":
     userId: "c8511696-909a-4d34-8efb-788211d75eba"
+  "markdown-preview-plus":
+    mathConfig:
+      enableLatexRenderingByDefault: true
+    useGitHubStyle: true
   minimap:
     plugins:
       bookmarks: true
