@@ -32,6 +32,7 @@ minimap-git-diff@4.3.1
 minimap-highlight-selected@4.6.1
 minimap-pigments@0.2.2
 monokai@0.24.0
+multi-cursor@2.1.5
 pigments@0.40.2
 platformio-ide-terminal@2.8.3
 show-ideographic-space@1.0.2
