@@ -10,11 +10,13 @@
       "monokai"
     ]
   editor:
-    fontSize: 12
+    fontSize: 11
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
     userId: "c8511696-909a-4d34-8efb-788211d75eba"
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview-plus":
     mathConfig:
       enableLatexRenderingByDefault: true
