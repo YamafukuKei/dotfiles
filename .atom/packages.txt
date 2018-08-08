@@ -20,7 +20,7 @@
 ├── linter-python@3.1.2
 ├── linter-ui-default@1.7.1
 ├── markdown-mindmap@0.4.2
-├── markdown-preview-plus@3.3.3
+├── markdown-preview-plus@3.3.4
 ├── markdown-scroll-sync@2.1.2 (disabled)
 ├── markdown-table-formatter@2.9.2
 ├── markdown-toc@0.4.2
