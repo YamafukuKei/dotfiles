@@ -43,5 +43,9 @@
     customTexts: {}
     style:
       theme: "linux"
+  "sync-settings":
+    _lastBackupHash: "33c2cf1fbff663d71dd996d5bce28218f1d77796"
+    gistId: "133d1693c0202f4c2263291237edfb5e"
+    personalAccessToken: "85ddc652b6c0d90221e1581e2d9a1ded5cf8706a"
   welcome:
     showOnStartup: false
