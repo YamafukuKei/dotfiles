@@ -52,7 +52,7 @@ slime@2.4.0
 sync-settings@0.8.6
 tag@0.5.0
 tool-bar@1.1.7
-tool-bar-markdown-writer@0.3.1
+tool-bar-markdown-writer@0.4.0
 web-search@0.3.3
 wordcount@3.0.0
 
