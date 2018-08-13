@@ -1,5 +1,5 @@
 Sublime-Style-Column-Selection@1.7.4
-atom-beautify@0.32.5
+atom-beautify@0.33.0
 atom-material-syntax@1.0.8
 atom-material-syntax-dark@1.0.0
 atom-material-syntax-light@0.4.6
@@ -30,7 +30,7 @@ markdown-preview-plus@3.3.4
 markdown-scroll-sync@2.1.2
 markdown-table-formatter@2.9.2
 markdown-toc@0.4.2
-markdown-writer@2.8.0
+markdown-writer@2.9.0
 mathjax-wrapper@0.1.0
 merge-conflicts@1.4.5
 minimap@4.29.8
@@ -44,7 +44,7 @@ monokai@0.24.0
 multi-cursor@2.1.5
 new-moon-atom-syntax@2.0.9
 pigments@0.40.2
-platformio-ide-terminal@2.8.3
+platformio-ide-terminal@2.8.4
 seti-syntax@1.2.0
 seti-ui@1.11.0
 show-ideographic-space@1.0.2

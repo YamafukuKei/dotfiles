@@ -45,8 +45,9 @@
       fontFamily: "Ubuntu Mono"
       fontSize: "12"
       theme: "linux"
+  "seti-syntax": {}
   "sync-settings":
-    _lastBackupHash: "33c2cf1fbff663d71dd996d5bce28218f1d77796"
+    _lastBackupHash: "c17134fc6fc49632b852d9f87dca0d8f1a6e2830"
     gistId: "133d1693c0202f4c2263291237edfb5e"
     personalAccessToken: "85ddc652b6c0d90221e1581e2d9a1ded5cf8706a"
   welcome:
