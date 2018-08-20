@@ -14,7 +14,7 @@ city-lights-syntax@1.1.8
 city-lights-ui@1.5.3
 color-picker@2.3.0
 file-icons@2.1.24
-git-plus@8.0.0
+git-plus@8.0.1
 github-atom-light-syntax@0.5.0
 highlight-column@0.5.4
 highlight-line@0.12.0
@@ -27,7 +27,7 @@ linter-gcc@0.7.1
 linter-python@3.1.2
 linter-ui-default@1.7.1
 markdown-mindmap@0.4.2
-markdown-preview-plus@3.3.4
+markdown-preview-plus@3.4.0
 markdown-scroll-sync@2.1.2
 markdown-table-formatter@2.9.2
 markdown-toc@0.4.2
