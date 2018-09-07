@@ -3,6 +3,11 @@
     disabledPackages: [
       "markdown-preview"
       "markdown-scroll-sync"
+      "linter"
+      "linter-pylama"
+      "linter-gcc"
+      "linter-python"
+      "linter-ui-default"
     ]
     telemetryConsent: "no"
     themes: [
@@ -15,6 +20,7 @@
     showInvisibles: true
   "exception-reporting":
     userId: "c8511696-909a-4d34-8efb-788211d75eba"
+  "linter-pylama": {}
   "linter-ui-default":
     showPanel: true
   "markdown-preview-plus":
