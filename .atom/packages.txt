@@ -9,7 +9,7 @@ atom-runner@2.7.1
 autoclose-html@0.23.0
 autocomplete-emojis@2.5.0
 autocomplete-paths@2.12.2
-autocomplete-python@1.10.11
+autocomplete-python@1.10.12
 busy-signal@1.4.3
 city-lights-syntax@1.1.8
 city-lights-ui@1.5.3
