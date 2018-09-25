@@ -119,7 +119,7 @@ source /opt/ros/kinetic/setup.bash
 
 #Set ROS Kinetic
 source /opt/ros/kinetic/setup.bash
-source ~/catkin_ws/devel/setup.bash
+source ~/WorkSpace/catkin_ws/devel/setup.bash
 
 #Set ROS Network
 export ROS_ROOT=/opt/ros/kinetic/ros
@@ -131,15 +131,15 @@ export ROS_MASTER_URI=http://${ROS_HOSTNAME}:11311
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export GRASPIT=$PWD
 export GRASPIT=~/.graspit
-export GAZEBO_MODEL_PATH=~/industrial_ws/src/pick-place-robot/kuka_arm/models
+export GAZEBO_MODEL_PATH=~/WorkSpace/industrial_ws/src/pick-place-robot/kuka_arm/models
 
 
 #Set ROS alias command
-alias cw='cd ~/catkin_ws'
-alias cs='cd ~/catkin_ws/src'
-alias cm='cd ~/catkin_ws && catkin_make'
+alias cw='cd ~/WorkSpace/catkin_ws'
+alias cs='cd ~/WorkSpace/catkin_ws/src'
+alias cm='cd ~/WorkSpace/catkin_ws && catkin_make'
 alias matlab='/usr/local/MATLAB/R2018a/bin/matlab'
-alias png2eps="~/bin/png2eps.sh"
-alias hw='~/bin/helloworld.sh'
+alias png2eps="~/dotfiles/bin/png2eps.sh"
+alias hw='~/dotfiles/bin/helloworld.sh'
 alias kinect='roslaunch kinect2_bridge kinect2_bridge.launch publish_tf:=true'
 alias moveit='roslaunch moveit_setup_assistant setup_assistant.launch'
