@@ -142,3 +142,4 @@ alias matlab='/usr/local/MATLAB/R2018a/bin/matlab'
 alias png2eps="~/bin/png2eps.sh"
 alias hw='~/bin/helloworld.sh'
 alias kinect='roslaunch kinect2_bridge kinect2_bridge.launch publish_tf:=true'
+alias moveit='roslaunch moveit_setup_assistant setup_assistant.launch'
