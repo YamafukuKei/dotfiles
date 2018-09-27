@@ -5,6 +5,7 @@ atom-material-syntax@1.0.8
 atom-material-syntax-dark@1.0.0
 atom-material-syntax-light@0.4.6
 atom-material-ui@2.1.3
+atom-ros@1.2.0
 atom-runner@2.7.1
 autoclose-html@0.23.0
 autocomplete-emojis@2.5.0
