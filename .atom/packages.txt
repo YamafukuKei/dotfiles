@@ -1,6 +1,6 @@
 Sublime-Style-Column-Selection@1.7.4
 atom-alignment@0.13.0
-atom-beautify@0.33.1
+atom-beautify@0.33.2
 atom-material-syntax@1.0.8
 atom-material-syntax-dark@1.0.0
 atom-material-syntax-light@0.4.6
