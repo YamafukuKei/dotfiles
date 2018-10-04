@@ -144,3 +144,4 @@ alias png2eps="~/dotfiles/bin/png2eps.sh"
 alias hw='~/dotfiles/bin/helloworld.sh'
 alias kinect='roslaunch kinect2_bridge kinect2_bridge.launch publish_tf:=true'
 alias moveit='roslaunch moveit_setup_assistant setup_assistant.launch'
+alias leap='sudo service leapd restart && source ~/WorkSpace/leap_ws/devel/setup.bash && roslaunch leap_motion demo.launch'

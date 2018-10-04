@@ -1,103 +1,81 @@
-{
-  "*": {
-    "autocomplete-plus": {
-      "confirmCompletion": "tab"
-    },
-    "autocomplete-python": {
-      "useKite": false
-    },
-    "bracket-matcher": {
-      "autocompleteCharacters": [
-        "()",
-        "[]",
-        "{}",
-        "\"\"",
-        "''",
-        "``",
-        "“”",
-        "‘’",
-        "«»",
-        "‹›",
-        "「」",
-        "『』",
-        "【】",
-        "（）"
-      ]
-    },
-    "core": {
-      "disabledPackages": [
-        "markdown-preview",
-        "language-gfm"
-      ],
-      "telemetryConsent": "no",
-      "themes": [
-        "atom-material-ui",
-        "atom-material-syntax-dark"
-      ]
-    },
-    "custom-title": {
-      "template": "<%= projectName %><% if (relativeFilePath) { %> - <%= relativeFilePath %><% } else { %> - <%= fileName %><% } %> <% if (gitHead) { %> [<%= gitHead %>]<% } %> - Atom"
-    },
-    "editor": {
-      "fontSize": 11,
-      "showIndentGuide": true,
-      "showInvisibles": true,
-      "softWrap": true
-    },
-    "exception-reporting": {
-      "userId": "c8511696-909a-4d34-8efb-788211d75eba"
-    },
-    "linter-pylama": {},
-    "linter-ui-default": {
-      "showPanel": true
-    },
-    "markdown-preview-plus": {
-      "mathConfig": {
-        "enableLatexRenderingByDefault": true
-      },
-      "useGitHubStyle": true
-    },
-    "minimap": {
-      "plugins": {
-        "bookmarks": true,
-        "bookmarksDecorationsZIndex": 0,
-        "find-and-replace": true,
-        "find-and-replaceDecorationsZIndex": 0,
-        "git-diff": true,
-        "git-diffDecorationsZIndex": 0,
-        "highlight-selected": true,
-        "highlight-selectedDecorationsZIndex": 0,
-        "minimap-autohide": true,
-        "minimap-autohideDecorationsZIndex": 0,
-        "pigments": true,
-        "pigmentsDecorationsZIndex": 0
-      }
-    },
-    "platformio-ide-terminal": {
-      "ansiColors": {
-        "normal": {
-          "white": "#e3e3e3"
-        }
-      },
-      "core": {},
-      "customTexts": {},
-      "style": {
-        "fontFamily": "Ubuntu Mono",
-        "fontSize": "12",
-        "theme": "linux"
-      }
-    },
-    "seti-syntax": {},
-    "sync-settings": {
-      "_lastBackupHash": "3b75f0ea0e42f545ac5457b6983b792b6b535def",
-      "gistId": "133d1693c0202f4c2263291237edfb5e",
-      "personalAccessToken": "85ddc652b6c0d90221e1581e2d9a1ded5cf8706a"
-    },
-    "toggle-quotes": {
-      "quoteCharacters": "\"'`"
-    },
-    "welcome": {
-      "showOnStartup": false
-    }
-  }
-}
+"*":
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+  "autocomplete-python":
+    useKite: false
+  "bracket-matcher":
+    autocompleteCharacters: [
+      "()"
+      "[]"
+      "{}"
+      "\"\""
+      "''"
+      "``"
+      "“”"
+      "‘’"
+      "«»"
+      "‹›"
+      "「」"
+      "『』"
+      "【】"
+      "（）"
+    ]
+  core:
+    disabledPackages: [
+      "markdown-preview"
+      "language-gfm"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax-dark"
+    ]
+  "custom-title":
+    template: "<%= projectName %><% if (relativeFilePath) { %> - <%= relativeFilePath %><% } else { %> - <%= fileName %><% } %> <% if (gitHead) { %> [<%= gitHead %>]<% } %> - Atom"
+  editor:
+    fontSize: 11
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "c8511696-909a-4d34-8efb-788211d75eba"
+  "linter-pylama": {}
+  "linter-ui-default":
+    showPanel: true
+  "markdown-preview-plus":
+    mathConfig:
+      enableLatexRenderingByDefault: true
+    useGitHubStyle: true
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        white: "#e3e3e3"
+    core: {}
+    customTexts: {}
+    style:
+      fontFamily: "Ubuntu Mono"
+      fontSize: "12"
+      theme: "linux"
+  "seti-syntax": {}
+  "sync-settings":
+    _lastBackupHash: "3b75f0ea0e42f545ac5457b6983b792b6b535def"
+    gistId: "133d1693c0202f4c2263291237edfb5e"
+    personalAccessToken: "85ddc652b6c0d90221e1581e2d9a1ded5cf8706a"
+  "toggle-quotes":
+    quoteCharacters: "\"'`"
+  welcome:
+    showOnStartup: false
