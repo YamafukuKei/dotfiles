@@ -41,6 +41,7 @@
     userId: "c8511696-909a-4d34-8efb-788211d75eba"
   "linter-pylama": {}
   "linter-ui-default":
+    panelHeight: 300
     showPanel: true
   "markdown-preview-plus":
     mathConfig:
@@ -72,7 +73,7 @@
       theme: "linux"
   "seti-syntax": {}
   "sync-settings":
-    _lastBackupHash: "3b75f0ea0e42f545ac5457b6983b792b6b535def"
+    _lastBackupHash: "9a4d7e56d39e4f6a5c2d5753da9c6566daff33d5"
     gistId: "133d1693c0202f4c2263291237edfb5e"
     personalAccessToken: "85ddc652b6c0d90221e1581e2d9a1ded5cf8706a"
   "toggle-quotes":
