@@ -3,8 +3,8 @@
 packages/
 compile-cache/
 storage/
-blob-store/
-recovery/
+/blob-store/
+/recovery/
 /nohup.out
 /init.coffee
 
