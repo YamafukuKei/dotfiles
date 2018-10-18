@@ -4,7 +4,9 @@ packages/
 compile-cache/
 storage/
 blob-store/
-nohup.out/
+recovery/
+/nohup.out
+/init.coffee
 
 dev/
 .npm/
