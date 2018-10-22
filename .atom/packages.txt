@@ -43,7 +43,11 @@ markdown-scroll-sync@2.1.2
 markdown-table-editor@1.1.1
 markdown-table-formatter@2.9.2
 markdown-toc@0.4.2
+<<<<<<< HEAD
 markdown-writer@2.10.1
+=======
+markdown-writer@2.10.0
+>>>>>>> 3c58d90a267a74a18faafa8df1eac142fc20650b
 mathjax-wrapper@0.1.0
 merge-conflicts@1.4.5
 minimap@4.29.9
