@@ -37,7 +37,7 @@ linter-python@3.1.2
 linter-textlint@5.0.0
 linter-ui-default@1.7.1
 markdown-mindmap@0.5.0
-markdown-preview-enhanced@0.15.7
+markdown-preview-enhanced@0.15.8
 markdown-preview-plus@3.7.0
 markdown-scroll-sync@2.1.2
 markdown-table-editor@1.1.1
@@ -67,7 +67,7 @@ sync-settings@0.8.6
 tablr@1.8.3
 tabs-to-spaces@1.0.5
 tag@0.5.0
-toggle-quotes@1.1.1
+toggle-quotes@1.1.2
 tool-bar@1.1.10
 tool-bar-markdown-writer@0.5.0
 web-search@0.3.3
