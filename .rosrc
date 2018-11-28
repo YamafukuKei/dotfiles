@@ -1,0 +1,8 @@
+#!/bin/bash
+
+function sros()
+{
+  source devel/setup.bash
+  rospack profile
+  export PYTHONPATH=/home/yamafukukei/.local/lib/python2.7/site_packages:$PYTHONPATH
+}

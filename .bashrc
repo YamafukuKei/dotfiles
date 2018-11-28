@@ -115,17 +115,17 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-source /opt/ros/kinetic/setup.bash
 
 #Set ROS Kinetic
 source /opt/ros/kinetic/setup.bash
-source ~/WorkSpace/catkin_ws/devel/setup.bash
+source ~/.rosrc
 
 #Set ROS Network
 export ROS_ROOT=/opt/ros/kinetic/ros
 export PATH=$ROS_ROOT/bin:$PATH
 export PYTHONPATH=$ROS_ROOT/core/roslib/src:$PYTHONPATH
 export PYTHONPATH=$PYTHONPATH:$HOME/LeapSDK/lib:$HOME/LeapSDK/lib/x64
+export PYTHONPATH=/home/yamafukukei/.local/lib/python2.7/site_packages:$PYTHONPATH
 export ROS_PACKAGE_PATH=~/ros_workspace:/opt/ros/kinetic/stacks:$ROS_PACKAGE_PATH
 export ROS_HOSTNAME=localhost
 export ROS_MASTER_URI=http://${ROS_HOSTNAME}:11311
