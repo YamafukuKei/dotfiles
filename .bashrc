@@ -133,7 +133,8 @@ export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export GRASPIT=$PWD
 export GRASPIT=~/.graspit
 export GAZEBO_MODEL_PATH=~/WorkSpace/industrial_ws/src/pick-place-robot/kuka_arm/models
-
+export PATH=/usr/local/cuda-9.0/bin:${PATH}
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:${LD_LIBRARY_PATH}
 
 #Set ROS alias command
 alias cw='cd ~/WorkSpace/catkin_ws'
