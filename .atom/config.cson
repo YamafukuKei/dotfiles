@@ -73,9 +73,9 @@
       theme: "linux"
   "seti-syntax": {}
   "sync-settings":
-    _lastBackupHash: "9a4d7e56d39e4f6a5c2d5753da9c6566daff33d5"
-    gistId: "133d1693c0202f4c2263291237edfb5e"
-    personalAccessToken: "85ddc652b6c0d90221e1581e2d9a1ded5cf8706a"
+    _lastBackupHash: "b0c68bca161702ca9687d04f21b36674fd392458"
+    gistId: "79b402607e87a9ecd968bf88db338056"
+    personalAccessToken: "725ce6b43d616d8a527e50642607cc86200f585e"
   "toggle-quotes":
     quoteCharacters: "\"'`"
   welcome:
