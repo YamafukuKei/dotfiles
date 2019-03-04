@@ -1,0 +1,15 @@
+.atom/.apm
+.atom/.node-gyp
+.atom/packages
+.atom/compile-cache
+.atom/storage
+.atom/atom-notes
+.atom/blob-store
+.atom/recovery
+.atom/nohup.out
+.atom/init.coffee
+.atom/atom-sync-settings
+.atom/atom-sync-settings.md
+
+.atom/dev
+.atom/.npm

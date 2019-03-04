@@ -1,0 +1,26 @@
+"*":
+  core:
+    disabledPackages: [
+      "language-gfm"
+      "markdown-preview"
+    ]
+    telemetryConsent: "no"
+  "exception-reporting":
+    userId: "217a4a72-bfaf-4cf8-a0b4-290d949d73c5"
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "sync-settings":
+    gistId: "5a"
+    personalAccessToken: "6f063998a83be4211b3b4c9cf5ce45c906701fc9"
