@@ -12,7 +12,7 @@ atomic-chrome@0.3.3
 autoclose-html@0.23.0
 autocomplete-emojis@2.5.0
 autocomplete-paths@2.12.2
-autocomplete-python@1.12.0
+autocomplete-python@1.13.0
 busy-signal@2.0.0
 city-lights-syntax@1.1.8
 city-lights-ui@1.5.3
