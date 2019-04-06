@@ -141,7 +141,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:${LD_LIBRARY_PATH}
 alias cw='cd ~/WorkSpace/catkin_ws'
 alias cs='cd ~/WorkSpace/catkin_ws/src'
 alias cm='cd ~/WorkSpace/catkin_ws && catkin_make'
-alias matlab='/usr/local/MATLAB/R2018a/bin/matlab'
+alias matlab='/usr/local/MATLAB/R2019a/bin/matlab'
 alias png2eps="~/dotfiles/bin/png2eps.sh"
 alias hw='~/dotfiles/bin/helloworld.sh'
 alias kinect='roslaunch kinect2_bridge kinect2_bridge.launch publish_tf:=true'
