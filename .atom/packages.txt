@@ -17,7 +17,7 @@ busy-signal@2.0.1
 city-lights-syntax@1.1.8
 city-lights-ui@1.5.3
 color-picker@2.3.0
-editorconfig@2.3.0
+editorconfig@2.4.0
 expand-region@0.4.2
 file-icons@2.1.31
 git-plus@8.6.2

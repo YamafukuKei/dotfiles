@@ -129,6 +129,7 @@ export PYTHONPATH=/home/yamafukukei/.local/lib/python2.7/site_packages:$PYTHONPA
 export ROS_PACKAGE_PATH=~/ros_workspace:/opt/ros/kinetic/stacks:$ROS_PACKAGE_PATH
 export ROS_HOSTNAME=localhost
 export ROS_MASTER_URI=http://${ROS_HOSTNAME}:11311
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/x86_64-linux-gnu/
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export GRASPIT=$PWD
 export GRASPIT=~/.graspit
