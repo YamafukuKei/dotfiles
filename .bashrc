@@ -116,6 +116,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#Set Emacs
+export PATH="/opt/emacs/24.4/bin:$PATH"
+export PATH="/home/yamafukukei/.cask/bin:$PATH"
+
 #Set ROS Kinetic
 source /opt/ros/kinetic/setup.bash
 source ~/.rosrc
