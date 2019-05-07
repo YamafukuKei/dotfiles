@@ -73,5 +73,5 @@ toggle-quotes@1.1.4
 tool-bar@1.1.11
 tool-bar-markdown-writer@0.5.0
 web-search@0.3.3
-wordcount@3.0.0
+wordcount@3.1.0
 
