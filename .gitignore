@@ -11,6 +11,7 @@
 .atom/config.cson
 .atom/atom-sync-settings
 .atom/atom-sync-settings.md
+.atom/.atom-socket-secret-yamafukukei-*
 
 .atom/dev
 .atom/.npm
