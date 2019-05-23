@@ -29,7 +29,7 @@ highlight-selected@0.16.0
 intentions@1.1.5
 jumpy@5.0.2
 language-hack@0.1.1
-language-markdown@0.29.0
+language-markdown@0.37.0
 language-rust-bundled@0.1.0
 linter@2.3.0
 linter-gcc@0.7.1
