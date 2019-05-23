@@ -156,3 +156,25 @@ alias leso='sudo service leapd restart && source ~/WorkSpace/leap_ws/devel/setup
 alias apl='apm list --installed --bare > packages.txt'
 alias vi='vim'
 alias emacs='emacs -nw'
+
+#ROS Convinience Command
+export marked="$HOME/marked"
+mark()
+{
+  file="unnamed"
+  info="[mark] following path marked"
+
+  mkdir -p $marked || exit 1
+
+  for opt in "$@"
+  do
+    case "$@" in
+      "-c" | "--catkin" )
+        file="catkin"
+        info="$info as catkin workspace"
+        break;;
+    esac
+  done
+
+  echo "$info: $(pwd | tee $marked/$file)";
+}
