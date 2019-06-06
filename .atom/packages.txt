@@ -39,7 +39,7 @@ linter-textlint@5.0.0
 linter-ui-default@1.7.1
 markdown-mindmap@0.6.1
 markdown-pdf@2.2.0
-markdown-preview-enhanced@0.16.0
+markdown-preview-enhanced@0.16.1
 markdown-preview-plus@3.8.1
 markdown-scroll-sync@2.1.2
 markdown-table-editor@1.1.2
