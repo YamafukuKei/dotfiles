@@ -40,3 +40,34 @@ function sros()
   rospack profile | sed -E "s/(.*)(\s\**\s)(.*)/\3/g" | grep -e "\/.*" | sort
   popd
 }
+
+function dros()
+{
+  pushd $(cat $marked/catkin) && rosdep install -iry --from-paths src
+  popd
+}
+
+function tros()
+{
+  pushd $(cat $marked/catkin) > /dev/null
+  catkin run_tests
+  catkin_test_results
+  popd > /dev/null
+}
+
+function recursive_wstool_update()
+{
+  pushd $(cat $marked/catkin)
+  wstool init src
+
+  echo "hoge" > /tmp/wstool_outputs
+
+  while test "$(cat /tmp/wstool_outputs)" != "Merge caused no change, no new elements found"
+  do
+    find -regextype posix-basic -regex "\./src/.*/.*\.rosinstall" | xargs -n1 wstool merge --target-workspace=src | uniq | tee /tmp/wstool_outputs
+    wstool update --target-workspace=src
+  done
+
+  rm /tmp/wstool_outputs
+  popd
+}
