@@ -15,3 +15,5 @@
 
 .atom/dev
 .atom/.npm
+
+.DS_Store
