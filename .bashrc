@@ -147,8 +147,9 @@ alias cw='cd ~/WorkSpace/catkin_ws'
 alias cs='cd ~/WorkSpace/catkin_ws/src'
 alias cm='cd ~/WorkSpace/catkin_ws && catkin_make'
 alias matlab='/usr/local/MATLAB/R2019a/bin/matlab'
-alias png2eps="~/dotfiles/bin/png2eps.sh"
-alias hw='~/dotfiles/bin/helloworld.sh'
+alias png2eps="~/bin/png2eps.sh"
+alias fetchall="~/bin/fetchall.sh"
+alias hw='~/bin/helloworld.sh'
 alias kinect='roslaunch kinect2_bridge kinect2_bridge.launch publish_tf:=true'
 alias moveit='roslaunch moveit_setup_assistant setup_assistant.launch'
 alias leap='sudo service leapd restart && source ~/WorkSpace/leap_ws/devel/setup.bash && roslaunch leap_motion demo.launch'
@@ -178,3 +179,48 @@ mark()
 
   echo "$info: $(pwd | tee $marked/$file)";
 }
+
+#Git Convinience Config
+function gitinfo()
+{
+  if git status &> /dev/null
+  then
+    git_branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+    # echo -e "$git_branch[$(git status -s | grep -v docs | wc -l)/$(git status -s | wc -l)]"
+    echo -e "$git_branch[$(git status -s | wc -l)]"
+  else
+    echo "norepo"
+  fi
+}
+
+function bgjobs()
+{
+  [[ $(jobs) ]] && echo ", jobs[$(jobs | wc -l)]"
+}
+
+export PS1="\n"
+export PS1="$PS1\[\e[0;36m\]( ^q^) < \[\e[0m\]\$(gitinfo)\$(bgjobs) \[\e[0;36m\])\n"
+export PS1="$PS1${debian_chroot:+($debian_chroot)}\[\e[0;32m\]\u@\H: \[\e[0;33m\]\w\[\e[0m\]\n"
+export PS1="$PS1>> "
+
+function gitinfo()
+{
+  if git status &> /dev/null
+  then
+    git_branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+    # echo -e "$git_branch[$(git status -s | grep -v docs | wc -l)/$(git status -s | wc -l)]"
+    echo -e "$git_branch[$(git status -s | wc -l)]"
+  else
+    echo "norepo"
+  fi
+}
+
+function bgjobs()
+{
+  [[ $(jobs) ]] && echo ", jobs[$(jobs | wc -l)]"
+}
+
+export PS1="\n"
+export PS1="$PS1\[\e[0;36m\]( ^q^) < \[\e[0m\]\$(gitinfo)\$(bgjobs) \[\e[0;36m\])\n"
+export PS1="$PS1${debian_chroot:+($debian_chroot)}\[\e[0;32m\]\u@\H: \[\e[0;33m\]\w\[\e[0m\]\n"
+export PS1="$PS1>> "
