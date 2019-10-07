@@ -157,6 +157,7 @@ alias leso='sudo service leapd restart && source ~/WorkSpace/leap_ws/devel/setup
 alias apl='apm list --installed --bare > packages.txt'
 alias vi='vim'
 alias emacs='emacs -nw'
+alias processing='sh /opt/processing/processing-3.5.3/processing'
 
 #ROS Convinience Command
 export marked="$HOME/marked"
