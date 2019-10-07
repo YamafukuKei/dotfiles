@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOT_FILES=(.bashrc .atom .tmux.conf bin)
+DOT_FILES=(.bashrc .atom .tmux.conf .latexmkrc bin)
 
 for file in ${DOT_FILES[@]}
 do
