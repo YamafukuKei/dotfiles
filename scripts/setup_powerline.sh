@@ -9,7 +9,13 @@ cd fonts/
 cd ..
 rm -rf fonts/
 
-gsettings set org.gnome.desktop.interface monospace-font-name 'Ubuntu Mono derivative Powerline 14'
+git clone https://github.com/ryanoasis/nerd-fonts.git
+cd nerd-fonts/
+./install.sh
+cd ..
+rm -rf nerd-fonts/
+
+gsettings set org.gnome.desktop.interface monospace-font-name 'UbuntuMono Nerd Font Regular 12'
 python -m pip install --user powerline-shell
 python -m pip install --user powerline-status
 
