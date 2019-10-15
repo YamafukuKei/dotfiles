@@ -181,47 +181,11 @@ mark()
   echo "$info: $(pwd | tee $marked/$file)";
 }
 
-#Git Convinience Config
-function gitinfo()
-{
-  if git status &> /dev/null
-  then
-    git_branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
-    # echo -e "$git_branch[$(git status -s | grep -v docs | wc -l)/$(git status -s | wc -l)]"
-    echo -e "$git_branch[$(git status -s | wc -l)]"
-  else
-    echo "norepo"
-  fi
+
+function _update_ps1() {
+    PS1="$(~/.local/bin/powerline-shell $?)"
 }
 
-function bgjobs()
-{
-  [[ $(jobs) ]] && echo ", jobs[$(jobs | wc -l)]"
-}
-
-export PS1="\n"
-export PS1="$PS1\[\e[0;36m\]( ^q^) < \[\e[0m\]\$(gitinfo)\$(bgjobs) \[\e[0;36m\])\n"
-export PS1="$PS1${debian_chroot:+($debian_chroot)}\[\e[0;32m\]\u@\H: \[\e[0;33m\]\w\[\e[0m\]\n"
-export PS1="$PS1>> "
-
-function gitinfo()
-{
-  if git status &> /dev/null
-  then
-    git_branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
-    # echo -e "$git_branch[$(git status -s | grep -v docs | wc -l)/$(git status -s | wc -l)]"
-    echo -e "$git_branch[$(git status -s | wc -l)]"
-  else
-    echo "norepo"
-  fi
-}
-
-function bgjobs()
-{
-  [[ $(jobs) ]] && echo ", jobs[$(jobs | wc -l)]"
-}
-
-export PS1="\n"
-export PS1="$PS1\[\e[0;36m\]( ^q^) < \[\e[0m\]\$(gitinfo)\$(bgjobs) \[\e[0;36m\])\n"
-export PS1="$PS1${debian_chroot:+($debian_chroot)}\[\e[0;32m\]\u@\H: \[\e[0;33m\]\w\[\e[0m\]\n"
-export PS1="$PS1>> "
+if [ "$TERM" != "linux" ]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
