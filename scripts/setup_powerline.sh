@@ -21,4 +21,4 @@ python -m pip install --user powerline-status
 
 mkdir -p ~/.config/powerline-shell && powerline-shell --generate-config > ~/.config/powerline-shell/config.json
 
-ln -s $dotfiles/configs/powerline_shell/config.json ~/.config/powerline-shell/config.json
+ln -fs $dotfiles/configs/powerline_shell/config.json ~/.config/powerline-shell/config.json
