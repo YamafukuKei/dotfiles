@@ -1,6 +1,6 @@
 #!/bin/bash -eu
 
-DOT_FILES=(.rosrc .bashrc bin)
+DOT_FILES=(.rosrc .bashrc bin .dircolors)
 
 for file in ${DOT_FILES[@]}
 do
