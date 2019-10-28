@@ -19,6 +19,11 @@ gsettings set org.gnome.desktop.interface monospace-font-name 'UbuntuMono Nerd F
 python -m pip install --user powerline-shell
 python -m pip install --user powerline-status
 
+mkdir -p !/.config/powerline && cp -R ~/.local/lib/python2.7/site-packages/powerline/config_files/* ~/.config/powerline/.
 mkdir -p ~/.config/powerline-shell && powerline-shell --generate-config > ~/.config/powerline-shell/config.json
 
-ln -fs $dotfiles/configs/powerline_shell/config.json ~/.config/powerline-shell/config.json
+cp $dotfiles/configs/powerline_shell/config.json ~/.config/powerline-shell/config.json
+cp $dotfiles/configs/powerline_shell/themes/*.py ~/.local/lib/python2.7/site-packages/powerline_shell/themes/.
+
+cp $dotfiles/configs/powerline/colorschemes/*.json ~/.config/powerline/colorschemes/.
+cp $dotfiles/configs/powerline/colorschemes/tmux/*.json ~/.config/powerline/colorschemes/tmux/.
