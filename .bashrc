@@ -153,6 +153,11 @@ export GAZEBO_MODEL_PATH=~/WorkSpace/industrial_ws/src/pick-place-robot/kuka_arm
 export PATH=/usr/local/cuda-9.0/bin:${PATH}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:${LD_LIBRARY_PATH}
 
+#Set pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 #Set ROS alias command
 alias cw='cd ~/WorkSpace/catkin_ws'
 alias cs='cd ~/WorkSpace/catkin_ws/src'
