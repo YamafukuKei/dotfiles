@@ -22,6 +22,9 @@ git config --global color.diff auto
 git config --global color.status auto
 git config --global color.branch auto
 
+# -- Setup pyenv --
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+
 # -- Install and Setup tmux --
 $dotfiles/scripts/setup_tmux.sh
 
