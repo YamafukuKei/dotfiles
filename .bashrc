@@ -174,6 +174,7 @@ alias apl='apm list --installed --bare > packages.txt'
 alias vi='vim'
 alias emacs='emacs -nw'
 alias processing='sh /opt/processing/processing-3.5.3/processing'
+alias blender='/usr/local/blender-2.80-linux-glibc217-x86_64/blender'
 
 #ROS Convinience Command
 export marked="$HOME/marked"
