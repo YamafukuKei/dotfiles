@@ -1,0 +1,41 @@
+## Thinkpad theme
+text_color       #9F9F9F
+bold_color       #9F9F9F
+background_color #272727
+color_1          #2E3436
+color_2          #FF0000
+color_3          #C10101
+color_4          #FFE000
+color_5          #878787
+color_6          #777474
+color_7          #840B0B
+color_8          #D3D7CF
+color_9          #FF0606
+color_10         #EF2929
+color_11         #69FF00
+color_12         #FEDF00
+color_13         #BE1104
+color_14         #C8456E
+color_15         #FCFCFC
+color_16         #EEEEEC
+
+## Blue_Yellow theme
+text_color       #9F9F9F
+bold_color       #9F9F9F
+background_color #272727
+color_1          #2E3436
+color_2          #FF0000
+color_3          #C10101
+color_4          #FFE000
+color_5          #878787
+color_6          #777474
+color_7          #840B0B
+color_8          #D3D7CF
+color_9          #FF0606
+color_10         #EF2929
+color_11         #69FF00
+color_12         #FEDF00
+color_13         #BE1104
+color_14         #C8456E
+color_15         #FCFCFC
+color_16         #EEEEEC
