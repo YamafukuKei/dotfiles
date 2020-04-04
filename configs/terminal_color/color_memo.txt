@@ -35,7 +35,7 @@ color_9          #FBE147
 color_10         #FB0101
 color_11         #91FF00
 color_12         #FCF202
-color_13         #C1BE83
+color_13         #FDF303
 color_14         #80B7FA
 color_15         #04F9FC
 color_16         #83D921
